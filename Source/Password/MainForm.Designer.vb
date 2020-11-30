@@ -52,7 +52,7 @@ Partial Class MainForm
 		'
 		Me.button1.Image = CType(resources.GetObject("button1.Image"),System.Drawing.Image)
 		Me.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-		Me.button1.Location = New System.Drawing.Point(18, 193)
+		Me.button1.Location = New System.Drawing.Point(19, 193)
 		Me.button1.Name = "button1"
 		Me.button1.Size = New System.Drawing.Size(234, 76)
 		Me.button1.TabIndex = 0
@@ -67,10 +67,11 @@ Partial Class MainForm
 		Me.comboBox1.AllowDrop = true
 		Me.comboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest
 		Me.comboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
+		Me.comboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
 		Me.comboBox1.FormattingEnabled = true
-		Me.comboBox1.Location = New System.Drawing.Point(18, 54)
+		Me.comboBox1.Location = New System.Drawing.Point(18, 47)
 		Me.comboBox1.Name = "comboBox1"
-		Me.comboBox1.Size = New System.Drawing.Size(235, 21)
+		Me.comboBox1.Size = New System.Drawing.Size(235, 28)
 		Me.comboBox1.TabIndex = 1
 		'
 		'label1
@@ -84,9 +85,10 @@ Partial Class MainForm
 		'
 		'textBox1
 		'
+		Me.textBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
 		Me.textBox1.Location = New System.Drawing.Point(18, 119)
 		Me.textBox1.Name = "textBox1"
-		Me.textBox1.Size = New System.Drawing.Size(235, 20)
+		Me.textBox1.Size = New System.Drawing.Size(235, 26)
 		Me.textBox1.TabIndex = 3
 		Me.textBox1.Text = "password1"
 		'
@@ -94,7 +96,7 @@ Partial Class MainForm
 		'
 		Me.checkBox1.Checked = true
 		Me.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked
-		Me.checkBox1.Location = New System.Drawing.Point(18, 145)
+		Me.checkBox1.Location = New System.Drawing.Point(18, 151)
 		Me.checkBox1.Name = "checkBox1"
 		Me.checkBox1.Size = New System.Drawing.Size(104, 24)
 		Me.checkBox1.TabIndex = 4
@@ -103,7 +105,7 @@ Partial Class MainForm
 		'
 		'label2
 		'
-		Me.label2.Location = New System.Drawing.Point(18, 28)
+		Me.label2.Location = New System.Drawing.Point(18, 19)
 		Me.label2.Name = "label2"
 		Me.label2.Size = New System.Drawing.Size(100, 23)
 		Me.label2.TabIndex = 5
@@ -141,9 +143,9 @@ Partial Class MainForm
 		'
 		'button2
 		'
-		Me.button2.Location = New System.Drawing.Point(171, 281)
+		Me.button2.Location = New System.Drawing.Point(223, 281)
 		Me.button2.Name = "button2"
-		Me.button2.Size = New System.Drawing.Size(81, 23)
+		Me.button2.Size = New System.Drawing.Size(29, 23)
 		Me.button2.TabIndex = 11
 		Me.button2.Text = ">"
 		Me.button2.UseVisualStyleBackColor = true
@@ -160,7 +162,7 @@ Partial Class MainForm
 		'
 		'button3
 		'
-		Me.button3.Location = New System.Drawing.Point(171, 145)
+		Me.button3.Location = New System.Drawing.Point(172, 151)
 		Me.button3.Name = "button3"
 		Me.button3.Size = New System.Drawing.Size(81, 23)
 		Me.button3.TabIndex = 13
